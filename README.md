@@ -64,6 +64,7 @@ Antes de rodar os comandos abaixo, certifique-se de possuir instalado na máquin
 
 Abra o terminal na pasta raiz do repositório, navegue até o diretório do servidor e execute a API:
 ```bash
+cd rotacerta-monitor-main
 cd backend
 dotnet run
 ```
@@ -76,6 +77,7 @@ O servidor compilará e ficará ativo no protocolo IPv4 dedicado:
 
 Abra um **segundo terminal paralelo** (deixando o terminal do C# ativo), instale os pacotes limpos e dispare o servidor de desenvolvimento do Vite:
 ```bash
+cd rotacerta-monitor-main
 cd frontend
 npm install
 npm run dev
